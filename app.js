@@ -29,10 +29,12 @@ function divide() {
 }
 
 function c() {
-    v1 = document.getElementById('v1').value = '0';
-    v2 = document.getElementById('v2').value = '0';
-    document.getElementById('ans').innerHTML = null;
-    document.getElementById('operator').innerHTML = null;
+    if (confirm('Are you sure to Clear?')) {
+        v1 = document.getElementById('v1').value = '0';
+        v2 = document.getElementById('v2').value = '0';
+        document.getElementById('ans').innerHTML = null;
+        document.getElementById('operator').innerHTML = null;
+    }
 }
 
 function developer() {
