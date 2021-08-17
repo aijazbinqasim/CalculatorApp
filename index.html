@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Calculator</title>
+    <style>
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body style="text-align: center">
+    <h1>Simple Calculator</h1>
+
+    <input type="number" name="v1" id="v1" value="0" min="0" required />
+    <span id="operator"></span>
+    <input type="number" name="v2" id="v2" value="0" min="0" required />
+
+    <span id="ans"></span>
+
+    <br /><br />
+    <button onclick="add()" type="button"><strong>Add (+)</strong></button>
+    <button onclick="substract()" type="button"><strong>Substract (-)</strong></button>
+    <button onclick="multiply()" type="button"><strong>Multiply (x)</strong></button>
+    <button onclick="divide()" type="button"><strong>Divide (&#247;)</strong></button>
+    <button onclick="c()" type="button"><strong>Clear (C)</strong></button>
+    <button onclick="developer()" type="button"><strong>Developer</strong></button> <br />
+    <h3>Developer Sajid jamali@2021<h3>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
